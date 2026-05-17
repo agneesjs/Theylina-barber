@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theylina Barber — London's Premier Grooming Experience</title>
+    <meta
+      name="description"
+      content="Theylina Barber — London's premier high-end barbershop in Soho. Precision cuts, hot towel shaves, and luxury grooming."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Theylina Barber" />
+    <meta
+      property="og:description"
+      content="London's premier grooming experience. Where precision meets luxury."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-inner">
+        <a href="#home" class="nav-logo">Theylina Barber</a>
+
+        <div class="nav-desktop">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#book">Book</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a
+            href="https://instagram.com/theylinabarber"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-instagram"
+            aria-label="Instagram"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="5" />
+              <circle
+                cx="17.5"
+                cy="6.5"
+                r="1.2"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <button
+          class="nav-hamburger"
+          id="hamburgerBtn"
+          aria-label="Toggle menu"
+        >
+          <span class="hamburger-icon">
+            <svg
+              class="icon-menu"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            >
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+            <svg
+              class="icon-close"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </span>
+        </button>
+      </div>
+
+      <div class="nav-mobile" id="mobileMenu">
+        <ul class="nav-mobile-links">
+          <li><a href="#home" class="mobile-link">Home</a></li>
+          <li><a href="#about" class="mobile-link">About</a></li>
+          <li><a href="#services" class="mobile-link">Services</a></li>
+          <li><a href="#book" class="mobile-link">Book</a></li>
+          <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+        <a
+          href="https://instagram.com/theylinabarber"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mobile-instagram mobile-link"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="2" y="2" width="20" height="20" rx="5" />
+            <circle cx="12" cy="12" r="5" />
+            <circle
+              cx="17.5"
+              cy="6.5"
+              r="1.2"
+              fill="currentColor"
+              stroke="none"
+            />
+          </svg>
+          @theylinabarber
+        </a>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&q=80"
+          alt="Theylina Barbershop"
+          class="hero-img"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content fade-up">
+        <h1 class="hero-title">
+          London's Premier <br /><em>Grooming Experience.</em>
+        </h1>
+        <p class="hero-sub">Where precision meets luxury.</p>
+        <a href="#book" class="btn btn-gold">Book Your Appointment</a>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about section-pad">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <div class="about-image-frame">
+              <img
+                src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&q=80"
+                alt="Barber at work"
+              />
+            </div>
+          </div>
+          <div class="about-text reveal">
+            <p class="label">Philosophy</p>
+            <h2 class="section-title">The Art of the Cut.</h2>
+            <div class="about-body">
+              <p>
+                At Theylina Barber, we believe that grooming is more than a
+                routine — it is a ritual. Situated in the heart of London, our
+                space is designed for gentlemen who appreciate the finer things
+                in life and understand that true luxury lies in the details.
+              </p>
+              <p>
+                Our master barbers are craftsmen of the highest order, bringing
+                decades of combined experience to every chair. From the perfect
+                hot towel straight razor shave to a precision tailored cut,
+                every service is executed with unhurried perfection.
+              </p>
+              <p>
+                Step into our private members' club atmosphere, leave the noise
+                of the city behind, and let us take care of the rest.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="services section-pad bg-dark">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="label">Our Craft</p>
+          <h2 class="section-title">Services &amp; Pricing</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <circle cx="6" cy="6" r="3" />
+                  <circle cx="18" cy="18" r="3" />
+                  <path
+                    d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
+                  />
+                </svg>
+              </div>
+              <span class="service-price">£45</span>
+            </div>
+            <h3 class="service-name">The Royal Cut</h3>
+            <p class="service-desc">
+              Classic precision haircut, tailored to your face shape.
+            </p>
+            <a href="#book" class="service-link"
+              >Book this <span class="arrow">→</span></a
+            >
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+              </div>
+              <span class="service-price">£30</span>
+            </div>
+            <h3 class="service-name">Beard Sculpt &amp; Hot Towel</h3>
+            <p class="service-desc">
+              Traditional straight razor finish with hot towel treatment.
+            </p>
+            <a href="#book" class="service-link"
+              >Book this <span class="arrow">→</span></a
+            >
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <circle cx="6" cy="6" r="3" />
+                  <circle cx="18" cy="18" r="3" />
+                  <path
+                    d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
+                  />
+                </svg>
+              </div>
+              <span class="service-price">£70</span>
+            </div>
+            <h3 class="service-name">The Theylina Ritual</h3>
+            <p class="service-desc">
+              Full grooming experience: cut, beard, hot towel, scalp massage.
+            </p>
+            <a href="#book" class="service-link"
+              >Book this <span class="arrow">→</span></a
+            >
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <circle cx="6" cy="6" r="3" />
+                  <circle cx="18" cy="18" r="3" />
+                  <path
+                    d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
+                  />
+                </svg>
+              </div>
+              <span class="service-price">£40</span>
+            </div>
+            <h3 class="service-name">Fade &amp; Design</h3>
+            <p class="service-desc">Expert skin fade with custom line work.</p>
+            <a href="#book" class="service-link"
+              >Book this <span class="arrow">→</span></a
+            >
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+              </div>
+              <span class="service-price">£55</span>
+            </div>
+            <h3 class="service-name">The Executive</h3>
+            <p class="service-desc">
+              Cut, style, and brow trim for the distinguished gentleman.
+            </p>
+            <a href="#book" class="service-link"
+              >Book this <span class="arrow">→</span></a
+            >
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <circle cx="6" cy="6" r="3" />
+                  <circle cx="18" cy="18" r="3" />
+                  <path
+                    d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
+                  />
+                </svg>
+              </div>
+              <span class="service-price">£25</span>
+            </div>
+            <h3 class="service-name">Junior Cut (under 12)</h3>
+            <p class="service-desc">Precision cut for the next generation.</p>
+            <a href="#book" class="service-link"
+              >Book this <span class="arrow">→</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REVIEWS ===== -->
+    <section class="reviews section-pad">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="label">Reputation</p>
+          <h2 class="section-title">What Our Clients Say</h2>
+          <div class="rating-summary">
+            <div class="stars">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+            </div>
+            <span class="rating-score">5.0</span>
+            <span class="rating-count">on Booksy · 200+ reviews</span>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card reveal">
+            <div class="review-stars">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+            </div>
+            <p class="review-text">
+              "Absolutely flawless. The hot towel finish alone is worth the
+              visit. My go-to barbershop in London."
+            </p>
+            <div class="review-footer">
+              <span class="review-name">James T.</span>
+              <span class="review-service">The Theylina Ritual</span>
+            </div>
+          </div>
+
+          <div class="review-card reveal">
+            <div class="review-stars">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+            </div>
+            <p class="review-text">
+              "Unmatched attention to detail. My fade has never looked so clean.
+              These guys are true craftsmen."
+            </p>
+            <div class="review-footer">
+              <span class="review-name">Marcus B.</span>
+              <span class="review-service">Fade &amp; Design</span>
+            </div>
+          </div>
+
+          <div class="review-card reveal">
+            <div class="review-stars">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+            </div>
+            <p class="review-text">
+              "The atmosphere is incredible — feels like a private club. Top
+              tier experience every single time."
+            </p>
+            <div class="review-footer">
+              <span class="review-name">Oliver R.</span>
+              <span class="review-service">The Royal Cut</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews-cta reveal">
+          <a
+            href="https://booksy.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            Read all reviews on Booksy
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BOOKING ===== -->
+    <section id="book" class="booking section-pad bg-dark">
+      <div class="booking-texture"></div>
+      <div class="container text-center">
+        <div class="booking-inner reveal">
+          <h2 class="booking-title">Book in Minutes.</h2>
+          <p class="booking-sub">
+            Secure your appointment instantly through our partner platform.
+            Select your preferred barber, service, and time.
+          </p>
+          <a
+            href="https://booksy.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-gold btn-large"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+            Book on Booksy
+          </a>
+          <p class="booking-phone">
+            Or call us directly:
+            <a href="tel:+442071234567">+44 20 7123 4567</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact section-pad">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="label">Find Us</p>
+          <h2 class="section-title">Contact &amp; Location</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3 class="contact-heading">Contact</h3>
+            <ul class="contact-list">
+              <li>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.91a16 16 0 006.19 6.19l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"
+                  />
+                </svg>
+                <a href="tel:+442071234567">+44 20 7123 4567</a>
+              </li>
+              <li>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="5" />
+                  <circle
+                    cx="17.5"
+                    cy="6.5"
+                    r="1.2"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+                <a
+                  href="https://instagram.com/theylinabarber"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >@theylinabarber</a
+                >
+              </li>
+              <li>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span>42 Carnaby Street<br />Soho, London<br />W1F 7DR</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-hours reveal">
+            <h3 class="contact-heading">Hours</h3>
+            <ul class="hours-list">
+              <li>
+                <span class="day">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  Mon – Fri
+                </span>
+                <span class="time">9am – 7pm</span>
+              </li>
+              <li>
+                <span class="day">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  Saturday
+                </span>
+                <span class="time">8am – 6pm</span>
+              </li>
+              <li>
+                <span class="day">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  Sunday
+                </span>
+                <span class="time">10am – 4pm</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-directions reveal">
+            <h3 class="contact-heading">Directions</h3>
+            <p>
+              We are located in the heart of Soho, steps from Oxford Circus and
+              Piccadilly Circus.
+            </p>
+            <a
+              href="https://maps.google.com/?q=42+Carnaby+Street,+London,+W1F+7DR"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline btn-full"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              >
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Get Directions
+            </a>
+          </div>
+        </div>
+
+        <div class="map-container reveal">
+          <iframe
+            title="Theylina Barber location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.984!2d-0.13959!3d51.51289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d3a69b06e9%3A0x7ac8d7571e3a0c92!2sCarnaby%20St%2C%20London%20W1F%207DR%2C%20UK!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
+            width="100%"
+            height="100%"
+            style="
+              border: 0;
+              filter: invert(90%) hue-rotate(180deg) saturate(0.8)
+                brightness(0.85);
+            "
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-logo">Theylina Barber</div>
+        <div class="footer-copy">
+          &copy; 2026 Theylina Barber. All rights reserved.
+          <span class="footer-sep">|</span>
+          London, UK
+        </div>
+        <div class="footer-links">
+          <a
+            href="https://instagram.com/theylinabarber"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="5" />
+              <circle
+                cx="17.5"
+                cy="6.5"
+                r="1.2"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </a>
+          <a href="https://booksy.com" target="_blank" rel="noopener noreferrer"
+            >Booksy</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
